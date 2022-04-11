@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ‘Montserrat’, sans-serif;
+    
+}
+
+/* stilizazzione del corpo */
+#app_container{
+    width: 100vw;
+    display: flex;
+    /* debugger */
+    
+}
+
+/* parte di sinistra con menu*/
+
+#app_left{
+    width: 300px;
+    height: calc( 100vh - 200px);
+     /* debugger */
+    background-color: red;
+}
+
+/* parte di destra con contenuti*/
+
+#app_right{
+    width: calc( 100vw - 300px );
+    height: calc( 100vh - 200px);
+     /* debugger */
+    background-color: blue;
+}
+
+/* stilizazzione player */
+
+footer{
+    width: 100vw;
+    height: 200px;
+     /* debugger */
+     background-color: yellow;
+}
