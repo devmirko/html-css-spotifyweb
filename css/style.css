@@ -36,6 +36,30 @@ body{
     background-color: blue;
 }
 
+/* contenitore bottone per upgrade */
+.top_bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* debugger */
+    background-color: #080B12;
+}
+
+.button_top{
+    display: inline-block;
+    min-width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-right: 10px; 
+}
+
 /* stilizazzione player */
 
 footer{
