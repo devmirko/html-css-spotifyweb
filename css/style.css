@@ -9,6 +9,9 @@ body{
     font-family: ‘Montserrat’, sans-serif;
     
 }
+/* classi generali */
+
+
 
 /* stilizazzione del corpo */
 #app_container{
@@ -119,12 +122,13 @@ body{
 
 /* stile card */
 .row{
-    width: 90%;
+    width: 90%;  
     margin: 0 auto;
     min-height: 400px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
 }
 
 .card{
@@ -132,6 +136,7 @@ body{
     min-height: 400px;
     /* debug */
     background-color: red;
+    margin-right: 20px;
 
 }
 /* immagine */
@@ -153,6 +158,7 @@ body{
 .card_title{
     height: 30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -162,13 +168,14 @@ body{
 
 .card_title h3{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
 .sub_title{
     color: rgba(255, 255, 255, 0.549);
     font-size: 20px;
+    margin-top: 10px;
 }
 
 
