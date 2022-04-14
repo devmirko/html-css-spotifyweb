@@ -10,7 +10,18 @@ body{
     
 }
 /* classi generali */
+/* contenitore tondo */
+.circle{
+    border-radius: 100%;
+}
 
+.icon{
+    margin-right: 10px;
+}
+
+a:hover{
+    color: white;
+}
 
 
 /* stilizazzione del corpo */
@@ -26,19 +37,99 @@ body{
 
 #app_left{
     width: 300px;
-    height: calc( 100vh - 200px);
+    height: calc( 100vh - 150px);
      /* debugger */
-    background-color: red;
+    background-color: #080b1283;
+    position: relative;
 }
+
+/* logo */
+.logo{
+    width: 80%;
+    padding: 20px;
+}
+
+/* navigazione app */
+#nav_app{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+#nav_app li{
+    margin-bottom: 20px;
+}
+
+#nav_app li a{
+    text-decoration: none;
+}
+
+#nav_app li a:hover{
+    color: white;
+}
+
+/* lista playlist */
+#playlist{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#playlist h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#playlist li{
+    margin-bottom: 20px;
+}
+
+#playlist li a{
+    text-decoration: none;
+   
+}
+
+#playlist li a:hover{
+    color: white;
+}
+
+/* profilo utente */
+#profilo_utente{
+    width: 100%;
+    min-height: 100px;
+    background-color: #080b12;
+    position: absolute;
+    bottom: 0;
+}
+
+.container_user{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+ .container_user a{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.user{
+    color: white;
+    margin: 10px 0;
+}
+
 
 /* parte di destra con contenuti*/
 
 #app_right{
     width: calc( 100vw - 300px );
-    height: calc( 100vh - 200px);
+    height: calc( 100vh - 150px);
     overflow: scroll;
      /* debugger */
-    /* background-color: blue; */
+    
 }
 
 /* contenitore bottone per upgrade */
@@ -63,6 +154,12 @@ body{
     color: white;
     line-height: 50px;
     margin-right: 10px; 
+}
+
+.button_top:hover{
+   width: 250px;
+   height: 60px; 
+   line-height: 60px;
 }
 /* contenitore */
 
@@ -91,11 +188,13 @@ body{
 
 #nav_playlist ul li a{
     display: inline-block;
-    /* height: 50px; */
-    /* line-height: 50px; */
     text-decoration: none;
     color: rgba(255, 255, 255, 0.549);
     font-weight: 700;
+}
+
+#nav_playlist ul li a:hover{
+    color: white;
 }
 
 .effetto_hover{
@@ -134,8 +233,6 @@ body{
 .card{
     width: 15%;
     min-height: 400px;
-    /* debug */
-    background-color: red;
     margin-right: 20px;
 
 }
@@ -144,8 +241,7 @@ body{
 .card_image{
     width: 100%;
     height: 70%;
-    /* debug */
-    background-color: aqua;
+ 
 
 }
 
@@ -189,7 +285,131 @@ body{
 
 footer{
     width: 100vw;
-    height: 200px;
+    height: 150px;
      /* debugger */
-     background-color: yellow;
+     background-color: #282828;
+     display: flex;
+     
 }
+/* song */
+.song{
+/* debug */
+width: 30%;
+max-height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.song_container{
+width: 70%;
+height: 50%;
+margin-left: 10px;
+display: flex;
+align-items: center;
+
+
+}
+
+.song_container img{
+ height: 100%;
+ margin-right: 20px;
+}
+
+.name_song h3{
+    color: white;
+}
+
+.like_song{
+  width: 30%;
+}
+
+/* player */
+.player{
+width: 40%;
+max-height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+/* comandi suono */
+#playback {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+#playback li{
+    list-style-type: none;
+}
+
+#playback li a{
+ display: inline-block;
+ color: white;
+ font-size: 30px;
+}
+
+/* barra canzoni con tempo */
+#time_song{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.time{
+    color: white;
+    font-size: 20px;
+}
+
+#sound_bar{
+    width: 80%;
+    height: 10px;
+    background-color: #5A5A5A;
+    border-radius: 20px;
+}
+
+.song_listened{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* impostazioni suono */
+
+.option{
+/* debug */
+width: 30%;
+max-height: 100%;
+display: flex;
+align-items: center;
+justify-content: end;
+
+
+}
+
+#option_sound{
+    display: flex;
+   
+}
+
+#option_sound li{
+    list-style-type: none;
+}
+
+#option_sound li a{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+   }
+
+   #volume_bar{
+    width: 40%;
+    height: 10px;
+    background-color: #5A5A5A;
+    border-radius: 20px;
+    margin: 0 20px;
+   }
