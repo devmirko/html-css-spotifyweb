@@ -241,14 +241,36 @@ a:hover{
 .card_image{
     width: 100%;
     height: 70%;
+    position: relative;
  
 
 }
 
-.card_image img{
+.card_image .filter{
    width: 100%;
    height: 100%;
 }
+
+.play_img{
+width: 80px;
+height: 80px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+
+.card_image:hover .play_img{
+    z-index: 1;
+}
+
+.card_image:hover .filter{
+  filter: grayscale(60%);
+}
+
+
+
 
 /* titolo card */
 .card_title{
