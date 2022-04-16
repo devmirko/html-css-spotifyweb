@@ -134,11 +134,13 @@ a:hover{
 
 /* contenitore bottone per upgrade */
 .top_bar{
-    width: 100%;
+    width: calc( 100vw - 300px );
     height: 100px;
     display: flex;
     justify-content: end;
     align-items: center;
+    position: fixed;
+    z-index: 20;
     /* debugger */
     background-color: #080b1283;
 }
@@ -162,6 +164,9 @@ a:hover{
    line-height: 60px;
 }
 /* contenitore */
+.container{
+    margin-top: 150px;
+}
 
 /* navigazione playlist */
 #nav_playlist{
@@ -198,10 +203,15 @@ a:hover{
 }
 
 .effetto_hover{
+    display: none;
     width: 25%;
     height: 2px;
     background-color: greenyellow;
     margin: 0 auto;
+}
+
+#nav_playlist ul li a:hover .effetto_hover{
+    display: block;
 }
 
 /* stile contenuto */
