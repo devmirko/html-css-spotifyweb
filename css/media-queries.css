@@ -1,0 +1,14 @@
+/* media queries */
+/* extra large screens */
+@media screen and (max-width: 1260px) {
+    .row {
+      min-height: 400px;
+    }
+    .card{
+        width: 20%;
+    }
+    .sub_title{
+        margin-bottom: 10px;
+    }
+  }
+

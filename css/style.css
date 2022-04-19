@@ -233,7 +233,7 @@ a:hover{
 .row{
     width: 90%;  
     margin: 0 auto;
-    min-height: 400px;
+    min-height: 500px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -242,7 +242,7 @@ a:hover{
 
 .card{
     width: 15%;
-    min-height: 400px;
+    /* min-height: 400px; */
     margin-right: 20px;
 
 }
@@ -250,7 +250,7 @@ a:hover{
 
 .card_image{
     width: 100%;
-    height: 70%;
+    /* height: 70%; */
     position: relative;
  
 
@@ -284,19 +284,20 @@ z-index: -1;
 
 /* titolo card */
 .card_title{
-    height: 30%;
+    /* height: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 20px;
     
 }
 
 .card_title h3{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
