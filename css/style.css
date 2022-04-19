@@ -359,6 +359,12 @@ align-items: center;
 .name_song h3{
     color: white;
 }
+.name_song span{
+    color: rgba(255, 255, 255, 0.549);
+    font-size: 20px;
+    
+}
+
 
 .like_song{
   width: 30%;
