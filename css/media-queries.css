@@ -12,3 +12,39 @@
     }
   }
 
+  /* desktop */
+  @media screen and (max-width: 1024px) {
+      /* contenuto playlist */
+    .row {
+      min-height: 300px;
+    }
+    .card{
+        width: 30%;
+    }
+    .sub_title{
+        margin-bottom: 10px;
+    }
+    /* barra di navigazione */
+    #nav_playlist ul li{
+        margin-right: 25px;
+    }
+    /* footer */
+    footer{
+       justify-content: space-between;
+    }
+
+    .song{
+       width: 25%;
+       justify-content: space-between;
+    }
+
+    .like_song{
+        width: 15%;
+    }
+
+    .option{
+        width: 25%;
+    }
+
+  }
+
