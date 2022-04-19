@@ -22,7 +22,10 @@ body{
 a:hover{
     color: white;
 }
-
+/* classe fantasma */
+.ghost{
+    display: inline;
+}
 
 /* stilizazzione del corpo */
 #app_container{
@@ -47,6 +50,10 @@ a:hover{
 .logo{
     width: 80%;
     padding: 20px;
+}
+
+#small_logo{
+    display: none;
 }
 
 /* navigazione app */
