@@ -226,6 +226,70 @@
 
 }
 
+@media screen and (max-width: 540px) {
+    .card{
+        width: 90%;
+    }
+
+    .row {
+        width: 90%;
+      }
+
+
+
+    /* footer */
+     footer{
+         display: block;
+         position: relative;
+     }
+     
+     .song{
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+        
+     }
+
+     .song_container{
+        width: 100%;
+        justify-content: start;
+    }
+
+    .song_container img{
+        display: block;  
+    }
+
+
+    .like_song{
+        display: none;
+    }
+    .player{
+        width: 100%;
+        display: block;
+    }
+
+    #playback li a{
+        display: block;
+    }
+    .option{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #option_sound{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    #volume_bar{
+        display: none;
+    }
+
+
+
+}
+
+
 /* media query altezza */
 @media screen and (max-height: 860px) {
  
