@@ -49,7 +49,7 @@ a:hover{
 /* logo */
 .logo{
     width: 80%;
-    padding: 20px;
+    padding: 30px;
 }
 
 #small_logo{
@@ -65,6 +65,11 @@ a:hover{
 
 #nav_app li{
     margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#nav_app li:hover{
+    border-left: 2px solid greenyellow;
 }
 
 #nav_app li a{
@@ -88,6 +93,7 @@ a:hover{
 }
 #playlist li{
     margin-bottom: 20px;
+    list-style-type: none;
 }
 
 #playlist li a{
@@ -194,7 +200,7 @@ a:hover{
 
 #nav_playlist ul li{
     margin-right: 20px;
-    text-align: center;
+    
        
 }
 
@@ -203,6 +209,7 @@ a:hover{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.549);
     font-weight: 700;
+    min-height: 30px;
 }
 
 #nav_playlist ul li a:hover{
@@ -249,7 +256,6 @@ a:hover{
 
 .card{
     width: 15%;
-    /* min-height: 400px; */
     margin-right: 20px;
 
 }
@@ -257,7 +263,6 @@ a:hover{
 
 .card_image{
     width: 100%;
-    /* height: 70%; */
     position: relative;
  
 
@@ -291,7 +296,6 @@ z-index: -1;
 
 /* titolo card */
 .card_title{
-    /* height: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -384,8 +388,8 @@ justify-content: center;
 #playback {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
-
+    width: 80%;
+    margin: 10px auto;
 }
 
 #playback li{
@@ -449,7 +453,7 @@ justify-content: end;
 #option_sound li a{
     display: inline-block;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
    }
 
    #volume_bar{
