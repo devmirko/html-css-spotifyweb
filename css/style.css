@@ -39,7 +39,7 @@ a:hover{
 /* parte di sinistra con menu*/
 
 #app_left{
-    width: 300px;
+    width: 230px;
     height: calc( 100vh - 150px);
      /* debugger */
     background-color: #080b1283;
@@ -138,7 +138,7 @@ a:hover{
 /* parte di destra con contenuti*/
 
 #app_right{
-    width: calc( 100vw - 300px );
+    width: calc( 100vw - 230px );
     height: calc( 100vh - 150px);
     overflow: scroll;
      /* debugger */
@@ -147,8 +147,8 @@ a:hover{
 
 /* contenitore bottone per upgrade */
 .top_bar{
-    width: calc( 100vw - 300px );
-    height: 100px;
+    width: calc( 100vw - 230px );
+    height: 90px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -178,7 +178,7 @@ a:hover{
 }
 /* contenitore */
 .container{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 /* navigazione playlist */
@@ -208,7 +208,6 @@ a:hover{
     display: inline-block;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.549);
-    font-weight: 700;
     min-height: 30px;
 }
 
@@ -314,7 +313,7 @@ z-index: -1;
 
 .sub_title{
     color: rgba(255, 255, 255, 0.549);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
